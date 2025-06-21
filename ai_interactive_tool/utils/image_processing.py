@@ -1,5 +1,5 @@
 """
-Image processing utilities for AI Interaction Tool
+Image processing utilities for AI Interactive Tool
 Handles conversion of base64 image data to MCP Image objects
 """
 

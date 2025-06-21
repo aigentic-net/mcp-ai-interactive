@@ -152,7 +152,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mcp-server-ai-interaction"
+name = "mcp-server-ai-interactive"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

@@ -1,4 +1,4 @@
-# Image attachment widget for AI Interaction Tool
+# Image attachment widget for AI Interactive Tool
 import os
 import base64
 import mimetypes

@@ -1,4 +1,4 @@
-# File tree components for AI Interaction Tool
+# File tree components for AI Interactive Tool
 from PyQt5 import QtWidgets, QtCore, QtGui
 import os
 from ..constants import TREE_DEPTH_EXPANSION

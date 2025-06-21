@@ -1,4 +1,4 @@
-# File utilities for AI Interaction Tool
+# File utilities for AI Interactive Tool
 import os
 import sys
 import unicodedata

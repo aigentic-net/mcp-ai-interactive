@@ -1,16 +1,16 @@
 import argparse
 from mcp.server.fastmcp import FastMCP
-from .core import ai_interaction_tool, get_tool_description
+from .core import ai_interactive_tool, get_tool_description
 
 def create_server():
     """Create and configure the MCP server instance"""
-    mcp = FastMCP("AI Interaction")
-    mcp.add_tool(ai_interaction_tool, description=get_tool_description())
+    mcp = FastMCP("AI Interactive")
+    mcp.add_tool(ai_interactive_tool, description=get_tool_description())
     return mcp
 
 def main():
     """Main entry point for the MCP server"""
-    parser = argparse.ArgumentParser(description="AI Interaction MCP Server")
+    parser = argparse.ArgumentParser(description="AI Interactive MCP Server")
     parser.add_argument(
         "--transport", 
         default="stdio", 

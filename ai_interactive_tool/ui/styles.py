@@ -1,4 +1,4 @@
-# Modern styling for AI Interaction Tool UI components
+# Modern styling for AI Interactive Tool UI components
 from PyQt5 import QtGui, QtCore
 import base64
 

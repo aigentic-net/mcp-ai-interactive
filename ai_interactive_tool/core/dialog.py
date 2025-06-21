@@ -1,4 +1,4 @@
-# Main input dialog for AI Interaction Tool
+# Main input dialog for AI Interactive Tool
 from PyQt5 import QtWidgets, QtCore, QtGui
 import json
 import os

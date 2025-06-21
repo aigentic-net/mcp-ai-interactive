@@ -1,4 +1,4 @@
-# UI module for AI Interaction Tool
+# UI module for AI Interactive Tool
 # Contains file dialogs and tree views
 
 from .file_dialog import FileAttachDialog

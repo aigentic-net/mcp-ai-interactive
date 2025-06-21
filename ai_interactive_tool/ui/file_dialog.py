@@ -1,4 +1,4 @@
-# File attachment dialog for AI Interaction Tool
+# File attachment dialog for AI Interactive Tool
 from PyQt5 import QtWidgets, QtCore
 import os
 from .file_tree import FileTreeView, FileTreeDelegate

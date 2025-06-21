@@ -11,7 +11,7 @@ wheels/
 .venv
 
 # Local configuration files (user-specific settings)
-ai_interaction_tool/config.json
+ai_interactive_tool/config.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -186,4 +186,4 @@ cython_debug/
 user_images/
 
 # Config files with user-specific data
-ai_interaction_config.json
+ai_interactive_config.json

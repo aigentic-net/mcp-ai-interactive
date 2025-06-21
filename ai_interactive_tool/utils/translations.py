@@ -1,4 +1,4 @@
-# Translation utilities for AI Interaction Tool
+# Translation utilities for AI Interactive Tool
 
 def get_translations():
     """
@@ -6,7 +6,7 @@ def get_translations():
     """
     return {
         "en": {
-            "window_title": "AI Interaction Tool",
+            "window_title": "AI Interactive Tool",
             "title_label": "Enter your message",
             "info_label": "Type your message and press 'Send' or Ctrl+Enter to send. You can also attach files.",
             "input_placeholder": "Type your message...",
@@ -53,7 +53,7 @@ def get_translations():
             "paste_error_title": "Paste Error",
             "paste_error_message": "Error adding pasted image: {error}",
             "save_images_checkbox": "Save Images",
-            "save_images_tooltip": "When checked, attached images will be restored when you open AI Interaction next time",
+            "save_images_tooltip": "When checked, attached images will be restored when you open AI Interactive next time",
             
             # Placeholder translations
             "file_placeholder": "📁 Drag & drop files/folders here or click 'Attach File' button",
@@ -210,7 +210,7 @@ def get_translations():
             "paste_error_title": "Lỗi Dán",
             "paste_error_message": "Lỗi khi thêm ảnh đã dán: {error}",
             "save_images_checkbox": "Lưu ảnh",
-            "save_images_tooltip": "Khi được chọn, ảnh đính kèm sẽ được khôi phục khi bạn mở AI Interaction lần sau",
+            "save_images_tooltip": "Khi được chọn, ảnh đính kèm sẽ được khôi phục khi bạn mở AI Interactive lần sau",
             
             # Placeholder translations
             "file_placeholder": "📁 Nhấn nút 'Đính kèm file' để chọn file/folder",

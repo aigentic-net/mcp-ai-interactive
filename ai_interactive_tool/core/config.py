@@ -1,4 +1,4 @@
-# Configuration management for AI Interaction Tool
+# Configuration management for AI Interactive Tool
 import json
 import os
 import sys
@@ -6,7 +6,7 @@ from ..constants import CONFIG_FILENAME, DEFAULT_LANGUAGE
 
 class ConfigManager:
     """
-    Quản lý cấu hình cho AI Interaction Tool
+    Quản lý cấu hình cho AI Interactive Tool
     """
     
     def __init__(self):

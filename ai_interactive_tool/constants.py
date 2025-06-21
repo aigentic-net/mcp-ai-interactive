@@ -1,4 +1,4 @@
-# Constants for AI Interaction Tool
+# Constants for AI Interactive Tool
 import os
 
 # Window settings

@@ -1,4 +1,4 @@
-# Utils module for AI Interaction Tool
+# Utils module for AI Interactive Tool
 # Contains translations, file utilities, and image processing
 
 from .translations import get_translations

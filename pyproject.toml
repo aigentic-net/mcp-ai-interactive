@@ -1,7 +1,7 @@
 [project]
 name = "mcp-server-ai-interactive"
 version = "0.1.1"
-description = "MCP Server for AI Interaction Tool - provides AI interaction capabilities via Model Context Protocol"
+description = "MCP Server for AI Interactive Tool - provides AI interactive capabilities via Model Context Protocol"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -37,7 +37,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-server-ai-interactive = "ai_interaction_tool.cli:main"
+mcp-server-ai-interactive = "ai_interactive_tool.cli:main"
 
 [project.optional-dependencies]
 dev = [
@@ -50,4 +50,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["ai_interaction_tool"]
+packages = ["ai_interactive_tool"]

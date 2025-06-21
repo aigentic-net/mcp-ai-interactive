@@ -1,5 +1,5 @@
 """
-MCP handler utilities for AI Interaction Tool
+MCP handler utilities for AI Interactive Tool
 Contains the main MCP tool function logic
 """
 
@@ -13,9 +13,9 @@ from .response_formatter import (
 )
 
 
-def ai_interaction_tool() -> List:
+def ai_interactive_tool() -> List:
     """
-    Main AI Interaction tool function with image support
+    Main AI Interactive tool function with image support
     Returns mixed content using modular response formatting
     
     This function handles:
@@ -48,10 +48,10 @@ def ai_interaction_tool() -> List:
 
 def get_tool_description() -> str:
     """
-    Get the AI Interaction tool description for MCP registration
+    Get the AI Interactive tool description for MCP registration
     
     Returns:
         String containing the tool description
     """
-    from ..description import AI_INTERACTION_DESCRIPTION
-    return AI_INTERACTION_DESCRIPTION 
+    from ..description import AI_INTERACTIVE_DESCRIPTION
+    return AI_INTERACTIVE_DESCRIPTION 

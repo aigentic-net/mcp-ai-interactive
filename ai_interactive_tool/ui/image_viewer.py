@@ -1,5 +1,5 @@
 """
-Advanced Image Viewer Component for AI Interaction Tool
+Advanced Image Viewer Component for AI Interactive Tool
 """
 
 import os

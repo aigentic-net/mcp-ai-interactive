@@ -1,5 +1,5 @@
 """
-Response formatting utilities for AI Interaction Tool
+Response formatting utilities for AI Interactive Tool
 Handles mixed content responses with text, images, and control tags
 """
 
@@ -76,7 +76,7 @@ def _build_text_content_with_tags(
     
     # Add attached files section if any
     if attached_files:
-        full_text_content += "\n\n<AI_INTERACTION_ATTACHED_FILES>\n"
+        full_text_content += "\n\n<AI_INTERACTIVE_ATTACHED_FILES>\n"
         workspace_name = None
         
         # Separate files and folders
@@ -118,14 +118,14 @@ def _build_text_content_with_tags(
                 full_text_content += f"- {error}\n"
             full_text_content += "\n"
         
-        full_text_content += "</AI_INTERACTION_ATTACHED_FILES>\n"
+        full_text_content += "</AI_INTERACTIVE_ATTACHED_FILES>\n"
         
         # Add workspace info
         if workspace_name:
-            full_text_content += f"\n<AI_INTERACTION_WORKSPACE>{workspace_name}</AI_INTERACTION_WORKSPACE>"
+            full_text_content += f"\n<AI_INTERACTIVE_WORKSPACE>{workspace_name}</AI_INTERACTIVE_WORKSPACE>"
     
     # Add control tags at the end (CRITICAL for agent behavior)
-    full_text_content += f"\n\n<AI_INTERACTION_CONTINUE_CHAT>{str(continue_chat).lower()}</AI_INTERACTION_CONTINUE_CHAT>"
+    full_text_content += f"\n\n<AI_INTERACTIVE_CONTINUE_CHAT>{str(continue_chat).lower()}</AI_INTERACTIVE_CONTINUE_CHAT>"
     
     return full_text_content
 

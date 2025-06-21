@@ -1,4 +1,4 @@
-# Main engine for AI Interaction Tool
+# Main engine for AI Interactive Tool
 # Refactored version - uses components from separate modules
 from PyQt5 import QtWidgets, QtGui
 import sys
@@ -12,7 +12,7 @@ from .ui.file_dialog import FileAttachDialog
 def run_ui(*args, **kwargs):
     """
     Hàm chính để chạy giao diện người dùng và trả về kết quả.
-    Đây là entry point chính cho AI Interaction Tool.
+    Đây là entry point chính cho AI Interactive Tool.
     """
     app = QtWidgets.QApplication.instance() or QtWidgets.QApplication(sys.argv)
     
@@ -49,7 +49,7 @@ def run_ui(*args, **kwargs):
             
             # Add attached files using collision-proof structured format
             if attached_files:
-                full_response_text += "\n\n<AI_INTERACTION_ATTACHED_FILES>\n"
+                full_response_text += "\n\n<AI_INTERACTIVE_ATTACHED_FILES>\n"
                 workspace_name = None
                 
                 # Separate files and folders
@@ -91,22 +91,22 @@ def run_ui(*args, **kwargs):
                         full_response_text += f"- {error}\n"
                     full_response_text += "\n"
                 
-                full_response_text += "</AI_INTERACTION_ATTACHED_FILES>\n"
+                full_response_text += "</AI_INTERACTIVE_ATTACHED_FILES>\n"
                 
                 # Add workspace info
                 if workspace_name:
-                    full_response_text += f"\n<AI_INTERACTION_WORKSPACE>{workspace_name}</AI_INTERACTION_WORKSPACE>"
+                    full_response_text += f"\n<AI_INTERACTIVE_WORKSPACE>{workspace_name}</AI_INTERACTIVE_WORKSPACE>"
             
             # Add control tags at the end
-            full_response_text += f"\n\n<AI_INTERACTION_CONTINUE_CHAT>{str(continue_chat).lower()}</AI_INTERACTION_CONTINUE_CHAT>"
+            full_response_text += f"\n\n<AI_INTERACTIVE_CONTINUE_CHAT>{str(continue_chat).lower()}</AI_INTERACTIVE_CONTINUE_CHAT>"
             return full_response_text
             
         except json.JSONDecodeError:
             # Handle non-JSON case with clean tag format
             result_text = text
-            result_text += f"\n\n<AI_INTERACTION_CONTINUE_CHAT>{str(continue_chat).lower()}</AI_INTERACTION_CONTINUE_CHAT>"
+            result_text += f"\n\n<AI_INTERACTIVE_CONTINUE_CHAT>{str(continue_chat).lower()}</AI_INTERACTIVE_CONTINUE_CHAT>"
             return result_text
     else:
         # Empty case with clean tag format
         return """
-<AI_INTERACTION_CONTINUE_CHAT>false</AI_INTERACTION_CONTINUE_CHAT>"""
+<AI_INTERACTIVE_CONTINUE_CHAT>false</AI_INTERACTIVE_CONTINUE_CHAT>"""

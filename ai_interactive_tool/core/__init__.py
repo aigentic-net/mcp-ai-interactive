@@ -1,4 +1,4 @@
-# Core module for AI Interaction Tool
+# Core module for AI Interactive Tool
 # Contains main dialog, configuration management, response formatting, and MCP handler
 
 from .dialog import InputDialog
@@ -9,7 +9,7 @@ from .response_formatter import (
     build_error_response,
     validate_response_data
 )
-from .mcp_handler import ai_interaction_tool, get_tool_description
+from .mcp_handler import ai_interactive_tool, get_tool_description
 
 __all__ = [
     'InputDialog', 
@@ -18,6 +18,6 @@ __all__ = [
     'format_text_only_response', 
     'build_error_response',
     'validate_response_data',
-    'ai_interaction_tool',
+    'ai_interactive_tool',
     'get_tool_description'
 ] 

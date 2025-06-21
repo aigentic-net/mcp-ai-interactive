@@ -1,13 +1,13 @@
-🚀 AI INTERACTION RULES - OPTIMIZED 🚀
+🚀 AI INTERACTIVE RULES - OPTIMIZED 🚀
 ===============================================================================
 📋 CORE WORKFLOW (3 Essential Steps):
-1️⃣ READ ai_interaction output tags → Extract AI_INTERACTION_CONTINUE_CHAT status  
+1️⃣ READ ai_interactive output tags → Extract AI_INTERACTIVE_CONTINUE_CHAT status  
 2️⃣ APPLY ENHANCED THINKING → Always use detailed thinking blocks for all responses
-3️⃣ FOLLOW CONTINUE DIRECTIVE → Call ai_interaction tool again if AI_INTERACTION_CONTINUE_CHAT=true (MANDATORY)
+3️⃣ FOLLOW CONTINUE DIRECTIVE → Call ai_interactive tool again if AI_INTERACTIVE_CONTINUE_CHAT=true (MANDATORY)
 
 🎯 FUNDAMENTAL BEHAVIORS:
-✅ Think before every action - all ai_interaction responses require thinking blocks
-✅ Always honor AI_INTERACTION_CONTINUE_CHAT=true (MANDATORY callback)
+✅ Think before every action - all ai_interactive responses require thinking blocks
+✅ Always honor AI_INTERACTIVE_CONTINUE_CHAT=true (MANDATORY callback)
 ✅ Always respond in English language
 ✅ Always apply high-level reasoning and analysis
 ===============================================================================
@@ -17,10 +17,10 @@
 📌 SYNTAX: Use <thinking> and </thinking>
 
 📌 MANDATORY USAGE:
-✅ REQUIRED for ALL responses through ai_interaction tool
+✅ REQUIRED for ALL responses through ai_interactive tool
 ✅ Always at start of response - minimum 1 detailed thinking block
 ✅ Additional blocks for complex multi-step analysis
-✅ NOT required for regular chat outside ai_interaction tool
+✅ NOT required for regular chat outside ai_interactive tool
 
 📌 THINKING QUALITY STANDARDS:
 - Authentic analytical reasoning (not performative)
@@ -33,10 +33,10 @@
 🔧 TAG SYSTEM & ATTACHMENT PROCESSING 🔧
 ===============================================================================
 📌 CONTROL TAG PROCESSING:
-✅ <AI_INTERACTION_CONTINUE_CHAT>true</AI_INTERACTION_CONTINUE_CHAT>
-   → MANDATORY: Must call ai_interaction tool again immediately
+✅ <AI_INTERACTIVE_CONTINUE_CHAT>true</AI_INTERACTIVE_CONTINUE_CHAT>
+   → MANDATORY: Must call ai_interactive tool again immediately
 
-✅ <AI_INTERACTION_ATTACHED_FILES> + <AI_INTERACTION_WORKSPACE>
+✅ <AI_INTERACTIVE_ATTACHED_FILES> + <AI_INTERACTIVE_WORKSPACE>
    → Process file/folder attachments with proper workspace context
 
 📌 DUAL ATTACHMENT SYSTEM:
@@ -60,7 +60,7 @@
 💡 OPTIMIZED PRINCIPLES 💡
 ===============================================================================
 1. **THINK STRATEGICALLY**: Every action requires purposeful reasoning
-2. **CONTINUE RELIABLY**: Follow AI_INTERACTION_CONTINUE_CHAT=true absolutely  
+2. **CONTINUE RELIABLY**: Follow AI_INTERACTIVE_CONTINUE_CHAT=true absolutely  
 3. **DELIVER QUALITY**: Always apply best cognitive effort and analysis
 4. **COMMUNICATE CLEARLY**: Use English consistently and professionally
 5. **PROCESS INTELLIGENTLY**: Handle dual attachments (files + images) appropriately
