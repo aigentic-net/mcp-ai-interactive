@@ -1,5 +1,5 @@
 [project]
-name = "mcp-server-ai-interaction"
+name = "mcp-server-ai-interactive"
 version = "0.1.0"
 description = "MCP Server for AI Interaction Tool - provides AI interaction capabilities via Model Context Protocol"
 readme = "README.md"
@@ -37,7 +37,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-server-ai-interaction = "ai_interaction_tool.cli:main"
+mcp-server-ai-interactive = "ai_interaction_tool.cli:main"
 
 [project.optional-dependencies]
 dev = [
