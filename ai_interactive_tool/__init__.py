@@ -27,23 +27,32 @@ from .core import (
     get_tool_description,
     InputDialog,
     ConfigManager,
-    ResponseFormatter
+    format_mixed_response,
+    format_text_only_response,
+    build_error_response,
+    validate_response_data
 )
 
 # UI Components
 from .ui import (
-    FileDialog,
+    FileAttachDialog,
+    FileTreeView,
+    FileSystemModel,
+    FileTreeDelegate,
     ImageAttachmentWidget,
-    ImageViewer,
-    FileTreeWidget,
-    MODERN_DARK_STYLE
+    DragDropImageWidget,
+    get_main_stylesheet,
+    get_file_dialog_stylesheet
 )
 
 # Utilities
 from .utils import (
-    TranslationManager,
-    FileUtils,
-    ImageProcessor
+    get_translations,
+    read_file_content,
+    validate_file_path,
+    process_images,
+    validate_image_data,
+    get_image_info
 )
 
 # Export main components
@@ -53,19 +62,28 @@ __all__ = [
     'get_tool_description',
     'InputDialog',
     'ConfigManager', 
-    'ResponseFormatter',
+    'format_mixed_response',
+    'format_text_only_response',
+    'build_error_response',
+    'validate_response_data',
     
     # UI
-    'FileDialog',
+    'FileAttachDialog',
+    'FileTreeView',
+    'FileSystemModel',
+    'FileTreeDelegate',
     'ImageAttachmentWidget',
-    'ImageViewer',
-    'FileTreeWidget',
-    'MODERN_DARK_STYLE',
+    'DragDropImageWidget',
+    'get_main_stylesheet',
+    'get_file_dialog_stylesheet',
     
     # Utils
-    'TranslationManager',
-    'FileUtils',
-    'ImageProcessor',
+    'get_translations',
+    'read_file_content',
+    'validate_file_path',
+    'process_images',
+    'validate_image_data',
+    'get_image_info',
     
     # Metadata
     'AI_INTERACTIVE_DESCRIPTION',
